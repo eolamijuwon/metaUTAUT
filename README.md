@@ -15,21 +15,20 @@
 -   Download the analysis pack *[see structure below]*
 
     .
+
     ├── Data
-    
-    │   └── ...
-    
+
+    │ └── ...
+
     ├── Output
-    │   └── ...
+
+    │ └── ...
+
     ├── R
-    │   ├── 00_master.R
-    │   ├── 01_packages_install.R
-    │   ├── 02_exploratory analysis.R
-    │   ├── 03_measurement model.R
-    │   ├── 04_structural_model.R
-    │   └── 05_supplementary_analysis.R
-    ├── README.md
-    └── metaUTAUT.Rproj
+
+    │ ├── 00_master.R
+
+    │ ├── 01_packages_install.R │ ├── 02_exploratory analysis.R │ ├── 03_measurement model.R │ ├── 04_structural_model.R │ └── 05_supplementary_analysis.R ├── README.md └── metaUTAUT.Rproj
 
 -   Using RStudio open "metaUTAUT.Rproj" file in the main project directory.
 
