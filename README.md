@@ -12,7 +12,22 @@
 
 #### **How to replicate the analysis**
 
--   Download the analysis pack
+-   Download the analysis pack *[see structure below]*
+
+    .
+    ├── Data
+    │   └── ...
+    ├── Output
+    │   └── ...
+    ├── R
+    │   ├── 00_master.R
+    │   ├── 01_packages_install.R
+    │   ├── 02_exploratory analysis.R
+    │   ├── 03_measurement model.R
+    │   ├── 04_structural_model.R
+    │   └── 05_supplementary_analysis.R
+    ├── README.md
+    └── metaUTAUT.Rproj
 
 -   Using RStudio open "metaUTAUT.Rproj" file in the main project directory.
 
@@ -40,4 +55,4 @@
 
         `source ("R/05_supplementary_analysis.R")`
 
--   Outputs from the exploratory analysis and models are saved in the [output folder](output/).
+-   Outputs from the exploratory analysis, graphs and models are saved in the [output folder](output/).
